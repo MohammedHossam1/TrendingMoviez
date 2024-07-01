@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav className="navbar bg-danger  navbar-expand-lg navbar-light bg-light text-center ">
-      <div className="container-fluid d-flex justify-content-center bg-info  text-center d-flex justify-content-center ">
+    <nav className="navbar   navbar-expand-lg navbar-light bg-light text-center ">
+      <div className="container-fluid d-flex justify-content-center   text-center d-flex justify-content-center ">
         <Link className="navbar-brand" to="">
           Trending Movies 
         </Link>

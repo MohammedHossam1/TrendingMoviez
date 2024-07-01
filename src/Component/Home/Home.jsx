@@ -44,10 +44,10 @@ export default function Home() {
 
   return (
     <div className="container mt-5 bg-light rounded-3 shadow-lg">
-      <div className="row row-cols-1 row-cols-md-5 g-4">
+      <div className="row row-cols-1 row-cols-lg-5 row-cols-md-4 g-4">
         {movies.map((movie, ind) => (
           <div key={ind} className="col position-relative">
-            <div className="rating-div rounded-circle position-absolute text-center bg-warning">
+            <div className="rating-div position-absolute text-center bg-warning">
               {movie.vote_average.toFixed(1)}
             </div>
             <div className="card h-100 shadow-sm">
