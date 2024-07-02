@@ -5,6 +5,22 @@
     transform: scale(1.03);
 }
 .movieCard{
+    position: relative;
     transition: transform .3s ease-in-out;
 
 }
+  .rating-ribbon {
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 1;
+    color: #fff;
+    background-color: #ffc107; /* or any other color you prefer */
+  }
+  
+  .card-body {
+    position: relative;
+  }
+  
