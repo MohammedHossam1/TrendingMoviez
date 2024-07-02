@@ -1,0 +1,10 @@
+/* 4040 */
+.movieCard:hover{
+    cursor: pointer;
+
+    transform: scale(1.03);
+}
+.movieCard{
+    transition: transform .3s ease-in-out;
+
+}
